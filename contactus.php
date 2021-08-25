@@ -7,7 +7,7 @@ $name = stripslashes($_REQUEST['name']); // sender's name
 $email 	= stripslashes($_REQUEST['email']); // sender's email
 $mobileno = stripslashes($_REQUEST['mobileno']);
 $message = stripslashes($_REQUEST['message']);
-
+$visa = stripslashes($_REQUEST['visa']);
 // The message you will receive in your mailbox
 // Each parts are commented to help you understand what it does exaclty.
 // YOU DON'T NEED TO EDIT IT BELOW BUT IF YOU DO, DO IT WITH CAUTION!
